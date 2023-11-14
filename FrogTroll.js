@@ -102,7 +102,6 @@ export default function FrogTroll({ options }) {
         ctx.moveTo(x + offsetx, y + offsety);
         ctx.lineWidth = propOption.size + 2;
         ctx.strokeStyle = "#ff7887";
-        // If frog-troll-container is rendered under the navbar uncomment navbarHeight
         ctx.lineTo(mouseX, mouseY- navbarHeight);
         ctx.stroke();
         setTimeout(function () {
