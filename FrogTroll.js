@@ -10,10 +10,10 @@ export default function FrogTroll({ options }) {
     var propOption = {
         units: options.units ? options.units : 'em',
         fontSize: options.fontSize ? options.fontSize : null,
-        size: options.size ? options.size : 10,
+        size: options.size ? options.size : 5,
         startingPosition: {
-            x: options.startingPosition.x ? options.startingPosition.x : 0,
-            y: options.startingPosition.y ? options.startingPosition.y : 0
+            x: options.startingPosition && options.startingPosition.x ? options.startingPosition.x : 0,
+            y: options.startingPosition && options.startingPosition.y ? options.startingPosition.y : 0
         },
         timeToOpenMouth: options.timeToOpenMouth ? options.timeToOpenMouth : 2000,
         timeToAttack: options.timeToAttack ? options.timeToAttack : 1000,
