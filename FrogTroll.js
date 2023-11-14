@@ -94,7 +94,7 @@ export default function FrogTroll({ options }) {
         // cos changes offset when head is close to vertical direction and sin when it's close to horizontal
         // Combination is needed because tongue is not in the center of the frog's mouth
         // If frog-troll-container is rendered under the navbar uncomment navbarHeight
-        offsety = document.getElementById('frog-troll-head').getBoundingClientRect().height * (0.5 + 0.1 * Math.cos(radians)); //- navbarHeight
+        offsety = document.getElementById('frog-troll-head').getBoundingClientRect().height * (0.5 + 0.1 * Math.cos(radians)) - navbarHeight
         offsetx = document.getElementById('frog-troll-head').getBoundingClientRect().width / 2 * (1.1 + 0.3 * Math.sin(radians));
 
         // Draw tongue
@@ -103,7 +103,7 @@ export default function FrogTroll({ options }) {
         ctx.lineWidth = propOption.size + 2;
         ctx.strokeStyle = "#ff7887";
         // If frog-troll-container is rendered under the navbar uncomment navbarHeight
-        ctx.lineTo(mouseX, mouseY); //- navbarHeight)
+        ctx.lineTo(mouseX, mouseY- navbarHeight);
         ctx.stroke();
         setTimeout(function () {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
