@@ -1,0 +1,22 @@
+{
+  "name": "frog-troll",
+  "description": "A frog entered your screen hunting down your mouse pointer",
+  "version": "1.0.0",
+  "main": "FrogTroll.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chleont/frog-troll.git"
+  },
+  "keywords": [
+    "troll",
+    "triginometry",
+    "react",
+    "pointer"
+  ],
+  "author": "Charalampos Leontidis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chleont/frog-troll/issues"
+  },
+  "homepage": "https://github.com/Chleont/frog-troll#readme"
+}

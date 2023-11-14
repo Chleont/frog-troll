@@ -1,0 +1,50 @@
+:root{
+    --frog-width:8em;
+}
+
+#frog-troll-container{
+    pointer-events: none;
+    width:100%;
+    height:100%;
+    z-index:10000;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+}
+
+#frog-troll-container :last-child{
+    pointer-events: auto;
+}
+#frog-troll{
+    position:relative;
+    height:var(--frog-width);
+    display: flex;
+    justify-content: center;
+    width: var(--frog-width);
+    transform:translate(50px,50px)
+}
+#frog-troll-head{
+    position: absolute;
+    width:70%;
+    z-index:1000;
+}
+#frog-troll-body{
+    width:100%;
+    position: absolute;
+    z-index:1;
+}
+#canvas{
+    position:absolute;
+    z-index:2000;
+}
+
+#dot{
+    width:1em;
+    height:1em;
+    background-color: transparent;
+    position: absolute;
+    z-index:2000;
+    border-radius: 80%;
+}
