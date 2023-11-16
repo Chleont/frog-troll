@@ -1,7 +1,7 @@
 ###### A frog entered your screen hunting down your mouse pointer...  
 # Frog Troll
 
-#### &emsp;A personal trigonometic experiment resulted to this hideous creature.
+#### A personal trigonometic experiment resulted to this hideous creature.
 
 By adding it to your app, you can append to any element the FrogTroll component.  
 This will add a frog to your screen that jumps arround it's parent component boundaries when the mouse pointers comes uncomfortably close to it.  
@@ -10,9 +10,9 @@ If the mouse pointer doesn't get the warning, it will meet the inevitable end as
 
 ## Usage
 
-#### &emsp;Requirements:  
+#### Requirements:  
 You just need a [React app](https://react.dev/). The oldest working version of <b>React</b> is <b>16.3</b> where <b>useEffect</b> was introduced.  
-#### &emsp;Installation and Integration:  
+#### Installation and Integration:  
 To install the Frog Troll run ```npm i --save frog-troll```  
 
 To integrate to your app add ```import {FrogTroll} from 'frog-troll'``` at the top of the component  
