@@ -1,7 +1,7 @@
 ###### A frog entered your screen hunting down your mouse pointer...  
 # Frog Troll
 
-#### A personal trigonometic experiment resulted to this hideous creature.
+#### &emsp;A personal trigonometic experiment resulted to this hideous creature.
 
 By adding it to your app, you can append to any element the FrogTroll component.  
 This will add a frog to your screen that jumps arround it's parent component boundaries when the mouse pointers comes uncomfortably close to it.  
@@ -18,6 +18,8 @@ To install the Frog Troll run ```npm i --save frog-troll```
 To integrate to your app add ```import {FrogTroll} from 'frog-troll'``` at the top of the component  
 you want to have it.  
 Then inside the component where you want the Frog Troll to live add ```<FrogTroll options={yourOptions}/>```.  
+
+<p align="center"><pre style="textAlign:center">Make sure to include options even as an empty parameter <b>options={{}}</b></pre></p>
 <b>yourOptions</b> variable is an object whose fields adjust the frog's size, starting position and behaviour:  
 <center>
 
