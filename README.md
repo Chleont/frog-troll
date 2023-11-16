@@ -31,3 +31,27 @@ Then inside the component where you want the Frog Troll to live add ```<FrogTrol
 |timeToOpenMouth|Integer|2000|Time in <b>milliseconds</b> from the moment that mouse pointer stops moving to the moment frog troll opens its mouth|
 |timeToAttack|Integer|1000|Time in <b>milliseconds</b> from the moment that frog troll opens its mouth to the moment it launches its tongue|
 </center>
+
+## Geometry
+
+
+The frog troll feels uncomfortable when the pointer tries to touch it so it jumps to a random ```(x,y)``` point within the boundaries of the parent element.  
+Most of the magic happens in the ```jump()``` function where the orbit of the frog troll's jump is calculated.  
+The un-natural convention has been made that the jump follows always a perfect circle and based on this theory, we have eight cases of jumps. Considering that the starting position of the frog troll is ```(0,0)```, depending on the final position the eight cases are shown below.
+
+<center>
+    <img src="https://i.imgur.com/Rw6TTcW.png" alt="Jump cases" style="width:50%"/>
+    <br>
+    <i>Jump Cases</i>
+</center>
+<br>  
+
+* In cases <b>a</b> and <b>h</b>, the center of the frog troll's orbit circle will be on <b>Xaxis</b>.<br>  
+* In cases <b>f</b> and <b>c</b>, the center of the frog troll's orbit circle will be on <b>Yaxis</b>.<br>
+* In cases <b>g</b> and <b>b</b>, the center of the frog troll's orbit circle will be on the line <b>passing from final position<br>point and being parallel to Yaxis</b>.<br>
+* In cases <b>e</b> and <b>d</b>, the center of the frog troll's orbit circle will be on the line <b>passing from final position<br>point and being parallel to Xaxis</b>.<br>
+
+![frog2](https://i.imgur.com/yDnx26i.png)
+![frog3](https://i.imgur.com/JxFwlR9.png)
+![frog4](https://i.imgur.com/SzTmT3M.png)
+![frog5](https://i.imgur.com/Gm53bIg.png)
