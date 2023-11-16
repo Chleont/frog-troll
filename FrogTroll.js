@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import './FrogTroll.css';
 import trollBody from './fb.png';
 import trollJumping from './fj.png';
