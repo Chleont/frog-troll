@@ -16,11 +16,11 @@ You just need a [React app](https://react.dev/). The oldest working version of <
 #### Installation and Integration:  
 To install the Frog Troll run ```npm i --save frog-troll```  
 
-To integrate to your app add ```import {FrogTroll} from 'frog-troll'``` at the top of the component  
-you want to have it.  
+To integrate to your app add ```import {FrogTroll} from 'frog-troll'``` at the top of the component you want to have it.  
 Then inside the component where you want the Frog Troll to live add ```<FrogTroll options={yourOptions}/>```.  
 
 <p align="center"><pre style="textAlign:center">Make sure to include options even as an empty parameter <b>options={{}}</b></pre></p>
+<br>
 <b>yourOptions</b> variable is an object whose fields adjust the frog's size, starting position and behaviour:  
 <center>
 
