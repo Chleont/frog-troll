@@ -1,7 +1,7 @@
 {
   "name": "frog-troll",
   "description": "A frog entered your screen hunting down your mouse pointer",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "main": "FrogTroll.js",
   "repository": {
     "type": "git",
