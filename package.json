@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/Chleont/frog-troll.git"
   },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
   "keywords": [
     "troll",
     "triginometry",
